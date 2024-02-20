@@ -1,7 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
+import habitsReducer from'./features/habitsSlice'
 
 const store = configureStore({
-    reducer: {},
+    reducer: {
+        allHabits: habitsReducer,
+    },
 })
 
 export default store

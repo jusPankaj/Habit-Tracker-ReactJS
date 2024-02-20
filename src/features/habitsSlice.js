@@ -28,18 +28,18 @@ const habitsSlice = createSlice({
     name:'habits',
     initialState,
     reducers: {
-        addHabit: (state, {payload}) =>{
+        addHabit: (state, {payload}) => {
             state.habits = [...state.habits, payload]
             habits = [...habits, payload]
             window.localStorage.setItem('newHabits', JSON.stringify(habits))
         },
-        deleteHabit: (state, action)=>{
+        deleteHabit: (state, action) => {
             state.habits = state.habits.filter((habit)=> habit.title != action.payload)
             window.localStorage.setItem('newHabits', JSON.stringify(state.habits))
         },
-        changeStatus: (state, { payload })=> {
+        changeStatus: (state, { payload }) => {
             state.habits.forEach((habit) => {
-                if(habits.title === payload.title) {
+                if(habit.title === payload.title) {
                     habit.details.forEach((detail) => {
                         if(detail.day === payload.details[0].day) {
                             detail.status = payload.details[0].status
@@ -53,6 +53,7 @@ const habitsSlice = createSlice({
     }
 })
 
+console.log(habitsSlice);
 
 export const { addHabit, deleteHabit, changeStatus } = habitsSlice.actions
 

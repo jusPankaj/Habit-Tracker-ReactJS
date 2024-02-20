@@ -19,7 +19,7 @@ const Overview = () => {
 
             <button
               onClick={() => setShowModal(true)}
-              className="flex text-center justify-center bg-slate-900 w-24 h-8 rounded items-center text-sm ml-28"
+              className="flex text-center justify-center bg-slate-800 w-24 h-8 rounded items-center text-sm ml-28"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

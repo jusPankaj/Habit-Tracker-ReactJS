@@ -23,7 +23,7 @@ const HabitForm = ({ closeForm }) => {
             Habit Title
           </label>
           <input
-            className="my-2 w-full h-12 text-white px-2 rounded bg-zinc-500"
+            className="my-2 w-full h-12 text-black px-2 rounded bg-white"
             type="text"
             id="title"
             autoFocus={true}
@@ -35,7 +35,7 @@ const HabitForm = ({ closeForm }) => {
             Description
           </label>{" "}
           <input
-            className="my-2 w-full h-12 text-white px-2 rounded bg-zinc-500"
+            className="my-2 w-full h-12 text-black px-2 rounded bg-white"
             type="text"
             id="description"
             placeholder="Short-description"

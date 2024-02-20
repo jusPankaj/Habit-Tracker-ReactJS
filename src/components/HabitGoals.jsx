@@ -8,7 +8,7 @@ const HabitGoals = () => {
               (todo, index) => (
                 <ul className="flex">
                   <li
-                    className="m-1 p-1.5 w-3/5  items-center text-center border-solid border-2 border-black rounded flex justify-between"
+                    className="m-1 p-1.5 w-3/5 bg-slate-800 items-center text-center border-solid border-2 border-black rounded flex justify-between"
                     key={index}
                   >
                     {todo}

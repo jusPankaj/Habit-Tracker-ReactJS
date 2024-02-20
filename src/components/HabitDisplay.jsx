@@ -5,11 +5,11 @@ const HabitDisplay = () => {
   const { habits } = useSelector((state) => state.allHabits);
 
   return (
-    <div className="mt-4 mx-24">
+    <div className="m-4 mx-24">
       {habits.map((habit, index) => (
-        <div key={index} className="mb-3 rounded-lg bg-zinc-500">
-          <p className="font-semibold">
-            <span className="text-lg ml-5">{habit.title}</span> : <span className="text-sm">{habit.description}</span>
+        <div key={index} className="mb-3 rounded-lg h-24 py-1 bg-slate-800 my-1">
+          <p className="font-semibold ">
+            <span className="text-md ml-10 text-zinc-300">{habit.title}</span> : <span className="text-zinc-300  font-normal">{habit.description}</span>
           </p>
           <HabitDetails key={habit.title} habit={habit} />
         </div>

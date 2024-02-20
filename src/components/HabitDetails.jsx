@@ -50,11 +50,11 @@ const HabitDetails = ({habit, habit: {details}}) => {
   };
 
   return (
-    <div className="grid grid-cols-7 gap-4">
+    <div className="grid grid-cols-7 gap-4 mt-1">
       {details.map((detail) => (
         <Fragment key={detail.day}>
           <div className="col">
-            <p className="text-center day-headings text-black">{detail.day}</p>
+            <p className="text-center day-headings font-semibold text-blue-400">{detail.day}</p>
 
             {detail.status === 'none' && (
               <svg

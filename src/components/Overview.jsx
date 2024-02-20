@@ -4,6 +4,7 @@ import HabitDisplay from "./HabitDisplay";
 import HabitGoals from "./HabitDetails";
 import { useDispatch, useSelector } from "react-redux";
 import { deleteHabit } from "../features/habitsSlice";
+import Navbar from "./Navbar";
 
 const Overview = () => {
   const [showModal, setShowModal] = useState(false);
@@ -22,10 +23,11 @@ const Overview = () => {
 
   return (
     <>
+    <Navbar />
       <div className="flex border-spacing-1 pt-20">
-        <div className="left bg-zinc-600 w-1/4 h-screen ">
+        <div className="left bg-gray-700 w-1/4 h-screen ">
           <div className="heading flex justify-center items-center my-5">
-            <h1 className="text-2xl font-bold ">Goals</h1>
+            <h1 className="text-2xl font-bold text-zinc-300">Goals</h1>
 
             <button
               onClick={() => setShowModal(true)}
@@ -37,7 +39,7 @@ const Overview = () => {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-5 h-5"
+                className="w-5 h-5 text-zinc-300"
               >
                 <path
                   strokeLinecap="round"
@@ -81,7 +83,7 @@ const Overview = () => {
           </div>
         </div>
 
-        <div className="right w-3/4  bg-slate-800">
+        <div className="right w-3/4  bg-gray-700">
           <HabitDisplay />
         </div>
       </div>

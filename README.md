@@ -11,9 +11,9 @@ Currently, two official plugins are available:
 **Habit Tracker APP**
 ------------
 
- It is a Web App Named HAbit Tracker which has the following  features: ***
-   I. We can add Goals as Habits that we want to track per day over a week.<hr>
-   II. We can mark the day as Done, Not Done, or do nothing for upcoming days.<hr>
-   III. During adding Habits we have to add the Title and The description about that which will show on the page after we submit the form.<hr>
-   IV. Tech Stack used: HTML, CSS, Tailwind CSS, JavaScript, ReactJS, Redux, and Redux Tool Kit.<hr>
+ It is a Web App Named HAbit Tracker which has the following  features: <br />
+   I. We can add Goals as Habits that we want to track per day over a week.<br />
+   II. We can mark the day as Done, Not Done, or do nothing for upcoming days.<br />
+   III. During adding Habits we have to add the Title and The description about that which will show on the page after we submit the form.<br />
+   IV. Tech Stack used: HTML, CSS, Tailwind CSS, JavaScript, ReactJS, Redux, and Redux Tool Kit.<br />
    

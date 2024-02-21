@@ -11,7 +11,7 @@ Currently, two official plugins are available:
 **Habit Tracker APP**
 ------------
 
- It is a Web App Named HAbit Tracker which has the following  features: <br />
+ It is a Web App Named Habit Tracker which has the following  features: <br />
    I. We can add Goals as Habits that we want to track per day over a week.<br />
    II. We can mark the day as Done, Not Done, or do nothing for upcoming days.<br />
    III. During adding Habits we have to add the Title and The description about that which will show on the page after we submit the form.<br />
